@@ -25,9 +25,8 @@ exports.config = {
         const image = file.mimetype.startsWith('image/')
         if (image) {
             next(null, true)
-        } else[
+        } else{
             next({ message: "File type not supported" }, false)
-        ]
-
+        }
     }
 }

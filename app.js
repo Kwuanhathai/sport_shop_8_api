@@ -6,7 +6,7 @@ const cors = require('cors');
 dotenv.config()
 
 const corsOptions = {
-    origin: ['https://sport-shop-8.netlify.app'],
+    origin: ['https://sport-shop-8.netlify.app', ],
     optionsSuccessStatus: 200
 }
 
